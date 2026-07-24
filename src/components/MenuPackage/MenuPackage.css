@@ -1,0 +1,33 @@
+.menu-package{
+    margin-bottom:35px;
+}
+
+.package-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+
+    margin-bottom:18px;
+}
+
+.package-header h3{
+
+    font-size:1.2rem;
+    font-weight:700;
+    color:#111;
+}
+
+.package-header span{
+
+    font-size:1.2rem;
+    font-weight:700;
+}
+
+.menu-package p{
+
+    font-size:1rem;
+    line-height:1.45;
+    color:#222;
+    margin-bottom:16px;
+}

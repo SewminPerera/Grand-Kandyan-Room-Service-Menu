@@ -1,0 +1,41 @@
+.menu-section {
+    max-width: 1280px;
+    margin: 40px auto;
+    background: #f7f2e8;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+
+    padding: 55px 70px;
+}
+
+.menu-column{
+    width:100%;
+}
+
+.menu-title{
+    color:#b88a1d;
+    font-size:2.2rem;
+    font-weight:700;
+    margin-bottom:30px;
+    text-transform:uppercase;
+}
+
+.menu-title span{
+    text-transform:none;
+}
+
+@media(max-width:900px){
+
+    .menu-section{
+        grid-template-columns:1fr;
+        gap:50px;
+        padding:35px;
+    }
+
+}
+
+.footer {
+    grid-column: 1 / -1;
+}

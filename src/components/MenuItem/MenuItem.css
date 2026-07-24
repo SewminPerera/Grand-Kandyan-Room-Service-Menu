@@ -1,0 +1,32 @@
+.menu-item{
+
+    margin-bottom:16px;
+
+}
+
+.menu-item-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+
+    margin-bottom:6px;
+}
+
+.menu-item-header h3{
+
+    font-size:1.15rem;
+    font-weight:700;
+}
+
+.menu-item-header span{
+
+    font-size:1.15rem;
+    font-weight:700;
+}
+
+.menu-item p{
+
+    font-size:1rem;
+    line-height:1.4;
+}
