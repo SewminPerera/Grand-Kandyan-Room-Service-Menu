@@ -1,4 +1,4 @@
-import "../BreadSection/BreadSection.css";
+import "./DessertsSection.css";
 import MenuItem from "../MenuItem/MenuItem";
 import { dessertsData } from "../../data/desserts";
 
@@ -8,13 +8,13 @@ export default function DessertSection() {
   const rightItems = dessertsData.slice(midIndex);
 
   return (
-    <section className="menu-section">
+    <section className="dessert-section">
       
       <div className="full-width-title">
         <h1 className="menu-title">A PERFECT ENDING</h1>
       </div>
 
-      <div className="menu-column">
+      <div className="dessert-column">
         {leftItems.map((item, index) => (
           <MenuItem
             key={`left-${index}`}
