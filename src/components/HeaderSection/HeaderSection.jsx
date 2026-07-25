@@ -32,11 +32,10 @@ export default function HeaderSection() {
 
         <div className="header-legend">
           <div className="legend-row">
-            Vegetarian (V)
-            <img src={greenChili} alt="vegetarian" className="legend-icon" />, 
-            Pork (P), Alcohol (A), Nuts (N), Spicy 
-            <img src={redChili} alt="spicy" className="legend-icon" />,
-            Seafood (SF) <img src={shrimp} alt="seafood" className="legend-icon"/>
+            Vegetarian (V)<img src={greenChili} alt="vegetarian" className="legend-icon" />, 
+            Pork (P),Seafood (SF)<img src={shrimp} alt="seafood" className="legend-icon"/>, Nuts (N), Spicy 
+            <img src={redChili} alt="spicy" className="legend-icon" />, Alcohol (A)
+            
           </div>
           <div>If you are prone to food allergy or intolerance or special dietary restriction, please inform our F & B team. We will be happy to assist with your needs.</div>
           <div>All prices are subject to Service Charge and Government taxes</div>
