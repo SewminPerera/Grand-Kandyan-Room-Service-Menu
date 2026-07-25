@@ -6,7 +6,7 @@ export const breadAndWraps = {
       title: "Never Too Much...",
       price: "2400",
       description: [
-        "Thinly sliced lean beef layered on rustic ciabatta bread, paired with crispy sautéed mushrooms and finisehd with a rich msutard au jus. Served alongside fresh mesclun greens and golden fries."
+        "Thinly sliced lean beef layered on rustic ciabatta bread, paired with crispy sautéed mushrooms and finisehd with a rich musturd au jus. Served alongside fresh mesclun greens and golden fries."
         ]
     },
 
