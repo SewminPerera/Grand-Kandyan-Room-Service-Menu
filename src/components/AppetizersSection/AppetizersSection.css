@@ -1,0 +1,10 @@
+.full-width-title {
+    grid-column: 1 / -1;
+    margin-bottom: -40px; 
+}
+
+@media(max-width: 900px) {
+    .full-width-title {
+        margin-bottom: -20px; 
+    }
+}

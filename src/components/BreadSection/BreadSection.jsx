@@ -7,7 +7,6 @@ export default function BreadSection() {
   return (
     <section className="menu-section">
       
-      {/* Reuses your existing menu-title class, adding full-width-title for the grid span */}
       <div className="full-width-title">
         <h1 className="menu-title">
           BETWEEN BREAD AND WRAPS

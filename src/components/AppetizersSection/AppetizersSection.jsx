@@ -1,27 +1,26 @@
-import "./AsianSection.css";
+import "./AppetizersSection.css";
 import MenuItem from "../MenuItem/MenuItem";
-import { asianData } from "../../data/asian";
+import { appetizersData } from "../../data/appetizers";
 
-export default function AsianSection() {
+export default function AppetizersSection() {
   return (
     <section className="menu-section">
       
       <div className="full-width-title">
-        <h1 className="menu-title">ASIAN</h1>
+        <h1 className="menu-title">APPETIZER & SALAD</h1>
       </div>
 
       <div className="menu-column">
-        {asianData.leftItems.map((item, index) => {
+        {appetizersData.leftItems.map((item, index) => {
           const itemIcons = item.icons ? [...item.icons] : [];
           if (item.icon && !itemIcons.includes(item.icon)) itemIcons.push(item.icon);
 
           return (
             <MenuItem
-              key={`asian-left-${index}`}
+              key={`appetizer-left-${index}`}
               title={item.title}
               description={item.description}
               price={item.price}
-              variants={item.variants}
               icons={itemIcons}
             />
           );
@@ -29,17 +28,16 @@ export default function AsianSection() {
       </div>
 
       <div className="menu-column">
-        {asianData.rightItems.map((item, index) => {
+        {appetizersData.rightItems.map((item, index) => {
           const itemIcons = item.icons ? [...item.icons] : [];
           if (item.icon && !itemIcons.includes(item.icon)) itemIcons.push(item.icon);
 
           return (
             <MenuItem
-              key={`asian-right-${index}`}
+              key={`appetizer-right-${index}`}
               title={item.title}
               description={item.description}
               price={item.price}
-              variants={item.variants}
               icons={itemIcons}
             />
           );

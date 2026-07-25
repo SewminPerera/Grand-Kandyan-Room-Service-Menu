@@ -1,0 +1,30 @@
+.main-events-section {
+    max-width: 100%;
+    margin: 0 auto;
+    background: #f7f2e8;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 55px 70px;
+    gap: 30px 50px;
+}
+
+.main-events-section .full-width-title {
+    grid-column: span 2;
+}
+
+.main-events-section .main-events-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+@media(max-width: 900px) {
+    .main-events-section {
+        grid-template-columns: 1fr;
+        padding: 35px;
+    }
+    .main-events-section .full-width-title {
+        grid-column: span 1;
+    }
+}
