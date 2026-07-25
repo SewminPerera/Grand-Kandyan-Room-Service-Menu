@@ -10,21 +10,32 @@ import PizzaSection from "./components/PizzaSection/PizzaSection";
 import NightMenuSection from "./components/NightMenuSection/NightMenuSection";
 import SidesSection from "./components/SidesSection/SidesSection";
 import MainEventSection from "./components/MainEventSection/MainEventSection";
+import SectionDivider from "./components/SectionDivider/SectionDivider";
 
 function App() {
   return (
     <>
       <HeaderSection />
+      <SectionDivider />
       <main className="menu-container">
         <BreakfastSection />
+        <SectionDivider />
         <BreadSection />
+        <SectionDivider />
         <SoupSection />
+        <SectionDivider />
         <AppetizersSection />
+        <SectionDivider />
         <DessertSection />
+        <SectionDivider />
         <AsianSection />
+        <SectionDivider />
         <PizzaSection />
+        <SectionDivider />
         <NightMenuSection />
+        <SectionDivider />
         <SidesSection />
+        <SectionDivider />
         <MainEventSection />
       </main>
     </>

@@ -30,7 +30,7 @@ export default function MenuItem({ title, description, price, variants, icon, ic
                 key={i}
                 src={imgSource} 
                 alt={iconName} 
-                style={{ height: '22px', objectFit: 'contain', mixBlendMode: 'multiply', display: 'inline-block', verticalAlign: 'middle' }} 
+                className="menu-item-icon"
               />
             ) : null;
           })}
@@ -60,7 +60,7 @@ export default function MenuItem({ title, description, price, variants, icon, ic
                         key={vIndex}
                         src={varImgSource} 
                         alt={iconName} 
-                        style={{ height: '18px', objectFit: 'contain', mixBlendMode: 'multiply', display: 'inline-block', verticalAlign: 'middle' }} 
+                        className="variant-item-icon"
                       />
                     ) : null;
                   })}

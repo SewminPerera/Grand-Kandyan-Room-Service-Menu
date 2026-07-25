@@ -61,3 +61,19 @@
     font-weight: 700;
     white-space: nowrap;
 }
+
+.menu-item-icon {
+    height: 22px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.variant-item-icon {
+    height: 18px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    display: inline-block;
+    vertical-align: middle;
+}
