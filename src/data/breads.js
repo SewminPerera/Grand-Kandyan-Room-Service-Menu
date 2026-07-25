@@ -34,7 +34,8 @@ export const breadAndWraps = {
       title: "Chicken Quesadilla",
       price: "2500",
       description: 
-        "Warm tortilla filled with tender chicken strips, sweet corn, crisp capsicums, spicy jalapeño, fresh tomato, and gooey melted cheese all grilled to golden perfection, accompanied with mesclun salad and salsa."
+        "Warm tortilla filled with tender chicken strips, sweet corn, crisp capsicums, spicy jalapeño, fresh tomato, and gooey melted cheese all grilled to golden perfection, accompanied with mesclun salad and salsa.",
+      icon: "spicy"  
     },
 
     {

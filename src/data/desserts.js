@@ -8,7 +8,8 @@ export const dessertsData = [
     {
         title: "Tropical Fresh platter or Mixed Fruit Salad (V)",
         price: "1250",
-        description: "A vibrant medley of seasonal fruits, refreshed with cool mint and drizzled with luscious mango juice."
+        description: "A vibrant medley of seasonal fruits, refreshed with cool mint and drizzled with luscious mango juice.",
+        icon: "vegetarian"
     },
 
     {

@@ -32,6 +32,7 @@ export default function BreakfastSection() {
             title={item.title}
             description={item.description}
             price={item.price}
+            icon={item.icon}
           />
         ))}
       </div>

@@ -2,6 +2,7 @@ import "./App.css";
 import BreakfastSection from "./components/BreakfastSection/BreakfastSection";
 import BreadSection from "./components/BreadSection/BreadSection";
 import DessertSection from "./components/DessertSection/DessertSection";
+import AsianSection from "./components/AsianSection/AsianSection";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <BreakfastSection />
       <BreadSection />
       <DessertSection />
+      <AsianSection />
     </main>
   );
 }
