@@ -1,13 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Great+Vibes&display=swap');
+
 .header-section {
     width: 100%;
-    margin: 0;
-    padding: 0;
-    line-height: 0;
+    background-color: #f7f2e8;
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    gap: 12px;
 }
 
-.header-image {
+.header-logo-container {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.header-logo {
     width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
+}
+
+.hotel-subtitle {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.3rem;
+    color: #b98d1f;
+    margin: 0;
+    font-weight: 400;
+}
+
+.header-title-bar {
+    width: 100%;
+    background-color: #b98d1f;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.header-title-bar h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #111111;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.header-scroll-instruction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    color: #b98d1f;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.scroll-arrow {
+    font-size: 1.2rem;
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(5px);
+    }
+    60% {
+        transform: translateY(3px);
+    }
+}
+
+.header-legend {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #a37512;
+    font-size: 0.82rem;
+    max-width: 650px;
+    line-height: 1.4;
+}
+
+.legend-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.legend-icon {
+    height: 15px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .header-logo-container {
+        width: 105px;
+        height: 105px;
+    }
+    .hotel-subtitle {
+        font-size: 1.8rem;
+    }
+    .header-title-bar h1 {
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+    }
+    .header-legend {
+        font-size: 0.78rem;
+        padding: 0 10px;
+    }
 }

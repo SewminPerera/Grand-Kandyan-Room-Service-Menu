@@ -1,14 +1,40 @@
 import "./HeaderSection.css";
-import headingImage from "../../assets/images/heading.jpeg";
+import logoImage from "../../assets/images/logo.png";
+import greenChili from "../../assets/images/green-chili.png";
+import redChili from "../../assets/images/red-chili.png";
 
 export default function HeaderSection() {
   return (
     <header className="header-section">
-      <img 
-        src={headingImage} 
-        alt="In Room Dining Menu - The Grand Kandyan Hotel" 
-        className="header-image" 
-      />
+      <div className="header-logo-container">
+        <img 
+          src={logoImage} 
+          alt="The Grand Kandyan Hotel Logo" 
+          className="header-logo" 
+        />
+      </div>
+
+      <h2 className="hotel-subtitle">The Grand Kandyan Hotel</h2>
+
+      <div className="header-title-bar">
+        <h1>IN ROOM DINING MENU</h1>
+      </div>
+
+      <div className="header-scroll-instruction">
+        <span>Scroll below to see the menu</span>
+        <span className="scroll-arrow">↓</span>
+      </div>
+
+      <div className="header-legend">
+        <div className="legend-row">
+          Vegetarian (V)
+          <img src={greenChili} alt="vegetarian" className="legend-icon" />, 
+          Pork (P), Alcohol (A), Nuts (N), Spicy 
+          <img src={redChili} alt="spicy" className="legend-icon" />
+        </div>
+        <div>If you are prone to food allergy or intolerance or special dietary restriction, please inform our F & B team. We will be happy to assist with your needs.</div>
+        <div>All prices are subject to Service Charge and Government taxes</div>
+      </div>
     </header>
   );
 }
