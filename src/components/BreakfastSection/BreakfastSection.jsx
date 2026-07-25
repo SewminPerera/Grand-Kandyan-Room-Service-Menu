@@ -1,11 +1,11 @@
-import "./MenuSection.css";
+import "./BreakfastSection.css";
 import Footer from "../Footer/Footer";
 import MenuPackage from "../MenuPackage/MenuPackage";
 import MenuItem from "../MenuItem/MenuItem";
 
 import { breakfastData } from "../../data/breakfast";
 
-export default function MenuSection() {
+export default function BreakfastSection() {
   return (
     <section className="menu-section">
 

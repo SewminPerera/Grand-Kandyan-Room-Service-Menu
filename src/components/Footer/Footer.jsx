@@ -1,5 +1,4 @@
 import "./Footer.css";
-
 import greenChili from "../../assets/images/green-chili.png";
 import redChili from "../../assets/images/red-chili.png";
 import shrimp from "../../assets/images/shrimp.png";

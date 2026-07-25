@@ -1,11 +1,14 @@
 import "./App.css";
-import MenuSection from "./components/MenuSection/MenuSection";
+
+import BreakfastSection from "./components/BreakfastSection/BreakfastSection";
+import BreadSection from "./components/BreadSection/BreadSection";
 
 function App() {
   return (
-    <div className="app">
-      <MenuSection />
-    </div>
+    <main className="menu-container">
+      <BreakfastSection />
+      <BreadSection />
+    </main>
   );
 }
 
