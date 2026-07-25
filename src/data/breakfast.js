@@ -34,7 +34,7 @@ export const breakfastData = {
       title: "Egg Benedict (P)",
       price: "1750",
       description:
-        "Featuring two perfectly poached eggs resting on toasted English muffins, layered with grilled CHICKEN ham or bacon, and luxuriously topped with smooth, buttery Hollandaise sauce."
+        "Featuring two perfectly poached eggs resting on toasted English muffins, layered with grilled chicken ham or bacon, and luxuriously topped with smooth, buttery Hollandaise sauce."
     },
 
     {
