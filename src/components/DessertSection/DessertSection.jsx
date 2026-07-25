@@ -1,4 +1,4 @@
-import "../BreadSection/BreadSection.css"; // Reusing the full-width-title class
+import "../BreadSection/BreadSection.css";
 import MenuItem from "../MenuItem/MenuItem";
 import { dessertsData } from "../../data/desserts";
 

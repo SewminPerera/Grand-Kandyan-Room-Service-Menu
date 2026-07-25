@@ -1,12 +1,10 @@
 import "./MenuItem.css";
-// 1. Import all three of your images
 import greenChili from "../../assets/images/green-chili.png";
 import redChili from "../../assets/images/red-chili.png";
 import shrimp from "../../assets/images/shrimp.png";
 
 export default function MenuItem({ title, description, price, variants, icon }) {
   
-  // 2. Create a quick helper function to choose the right image based on the prop
   const getIconSource = () => {
     if (icon === "vegetarian") return greenChili;
     if (icon === "spicy") return redChili;
@@ -23,7 +21,6 @@ export default function MenuItem({ title, description, price, variants, icon }) 
         <h3 style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           {title}
           
-          {/* 3. Render the image if an icon is found */}
           {iconSrc && (
             <img 
               src={iconSrc} 
@@ -31,7 +28,7 @@ export default function MenuItem({ title, description, price, variants, icon }) 
               style={{ 
                 height: '22px', 
                 objectFit: 'contain',
-                mixBlendMode: 'multiply' /* <-- This removes the white background! */
+                mixBlendMode: 'multiply' 
               }} 
             />
           )}
