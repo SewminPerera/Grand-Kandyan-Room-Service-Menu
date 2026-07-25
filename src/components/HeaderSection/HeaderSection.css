@@ -83,8 +83,8 @@
 }
 
 .scroll-arrow-long {
-    width: 50px;
-    height: 100%;
+    width: 30px;
+    height: 100px;
     animation: bounceLong 1.8s infinite ease-in-out;
 }
 
