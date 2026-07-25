@@ -29,3 +29,30 @@
     font-size:1rem;
     line-height:1.4;
 }
+
+.menu-item-variants {
+    margin-top: 12px;
+    padding-left: 24px; 
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+.variant-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.variant-row h4 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0;
+    color: #08060d; 
+}
+
+.variant-row span {
+    font-size: 1.15rem;
+    font-weight: 700;
+}
