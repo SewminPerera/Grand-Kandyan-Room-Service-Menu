@@ -22,7 +22,10 @@ export default function HeaderSection() {
 
       <div className="header-scroll-instruction">
         <span>Scroll below to see the menu</span>
-        <span className="scroll-arrow">↓</span>
+        <svg className="scroll-arrow-long" viewBox="0 0 24 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="12" y1="0" x2="12" y2="32" stroke="#b98d1f" strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M5 24L12 33L19 24" stroke="#b98d1f" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
       </div>
 
       <div className="header-legend">
