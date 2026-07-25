@@ -20,10 +20,9 @@ export default function MenuItem({ title, description, price, variants, icon, ic
     <div className="menu-item">
       
       <div className="menu-item-header">
-        <h3 style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          {title}
+        <div className="menu-item-title-wrapper">
+          <h3>{title}</h3>
           
-          {/* Renders all icons in the array */}
           {allIcons.map((iconName, i) => {
             const imgSource = getIconImage(iconName);
             return imgSource ? (
@@ -31,11 +30,12 @@ export default function MenuItem({ title, description, price, variants, icon, ic
                 key={i}
                 src={imgSource} 
                 alt={iconName} 
-                style={{ height: '26px', objectFit: 'contain', mixBlendMode: 'multiply' }} 
+                style={{ height: '22px', objectFit: 'contain', mixBlendMode: 'multiply', display: 'inline-block', verticalAlign: 'middle' }} 
               />
             ) : null;
           })}
-        </h3>
+        </div>
+
         {price && <span>{price}</span>}
       </div>
 
@@ -50,8 +50,8 @@ export default function MenuItem({ title, description, price, variants, icon, ic
 
             return (
               <div className="variant-row" key={index}>
-                <h4 style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                  {variant.name}
+                <div className="menu-item-title-wrapper">
+                  <h4>{variant.name}</h4>
                   
                   {varIcons.map((iconName, vIndex) => {
                     const varImgSource = getIconImage(iconName);
@@ -60,11 +60,11 @@ export default function MenuItem({ title, description, price, variants, icon, ic
                         key={vIndex}
                         src={varImgSource} 
                         alt={iconName} 
-                        style={{ height: '22px', objectFit: 'contain', mixBlendMode: 'multiply' }} 
+                        style={{ height: '18px', objectFit: 'contain', mixBlendMode: 'multiply', display: 'inline-block', verticalAlign: 'middle' }} 
                       />
                     ) : null;
                   })}
-                </h4>
+                </div>
                 <span>{variant.price}</span>
               </div>
             );

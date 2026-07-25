@@ -1,5 +1,4 @@
 import "./BreakfastSection.css";
-import Footer from "../Footer/Footer";
 import MenuPackage from "../MenuPackage/MenuPackage";
 import MenuItem from "../MenuItem/MenuItem";
 import { breakfastData } from "../../data/breakfast";
@@ -36,8 +35,6 @@ export default function BreakfastSection() {
           />
         ))}
       </div>
-
-      <Footer/>
 
     </section>
   );

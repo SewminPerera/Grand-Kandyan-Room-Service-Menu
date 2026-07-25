@@ -1,0 +1,13 @@
+.header-section {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}

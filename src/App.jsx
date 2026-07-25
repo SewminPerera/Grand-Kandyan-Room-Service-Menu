@@ -9,10 +9,12 @@ import PizzaSection from "./components/PizzaSection/PizzaSection";
 import NightMenuSection from "./components/NightMenuSection/NightMenuSection";
 import SoupSection from "./components/SoupSection/SoupSection";
 import AppetizersSection from "./components/AppetizersSection/AppetizersSection";
+import HeaderSection from "./components/HeaderSection/HeaderSection";
 
 function App() {
   return (
     <main className="menu-container">
+      <HeaderSection />
       <BreakfastSection />
       <BreadSection />
       <DessertSection />
